@@ -1,0 +1,28 @@
+# PLACEHOLDERS
+# prefix: %prefix%
+# world: %world% --> replaced with whatever world the player is in
+# victim name: %victim%
+# NOTE: make sure to reassign what color for the messages after using %world%
+
+world-names:
+  overworld: '&aOverworld'
+  the-end: '&dThe End'
+  nether: '&cNether'
+
+messages:
+  prefix: '&f[&d&lPlayerTracker&f]&7 ' # plugin prefix
+  self-gave-compass: '%prefix% Gave you a compass.' # someone gives themselves a compass
+  other-gave-compass: '%prefix% You were given a compass.' # someone gives another player a compass
+  cant-track-self: '&cYou cannot track yourself!'
+  not-tracking-anybody: '&cYou are not tracking anybody!'
+  now-tracking: '%prefix% Now tracking %victim%.' # victim name placeholder: %victim%
+  go-to-world-to-track: '%prefix% Go to the %world% &7to track this player.' # PLACEHOLDERRS: %world% (victim's world"
+  stopped-tracking-player: '%prefix% You stopped tracking %victim%.' # PLACEHOLDERRS: %victim%
+  player-left-no-longer-tracking: '%prefix% %victim% left and you are no longer tracking them.' # PLACEHOLDERS: %victim%
+  victim-world-change: '%prefix% %victim% went to the %world%&7. Go there to track them again.' # PLACEHOLDERS: %victim%, %world% (victim's world)
+  player-world-change: '%prefix% You are no longer tracking %victim% because you changed worlds.' # PLACEHOLDERS: %victim%
+  already-tracking: '%prefix% You are already tracking %player%.' # PLACEHOLDERS: %player%
+items:
+  gui-player-head-lore: # PLACEHOLDERS: %player-name%, %world%
+    - '&e&l%player-name%'
+    - '&7World: %world%'

@@ -1,0 +1,9 @@
+name: PlayerTracker
+version: 1.1
+main: me.katnissali.playertracker.PlayerTracker
+api-version: 1.13
+author: katnissali#1487
+commands:
+  PlayerTracker:
+    aliases: [pt, tracker, compass]
+    description: Manages plugin.
